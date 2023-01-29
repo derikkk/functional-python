@@ -6,6 +6,9 @@ and not for loops or list comprehensions.
 '''
 
 def evens(n):
+   if (n%2) == 0:
+       return n
+   map(evens, n)
     '''
     Returns a list of even numbers from 0 to n inclusive.
 
