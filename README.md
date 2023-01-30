@@ -10,6 +10,6 @@
 
 Paste the URL to your github repo into sakai. The URL should be of the format
 
-https://github.com/mikeizbicki/functional-python
+https://github.com/derikkk/functional-python
 
 but with your github username instead of mine.
