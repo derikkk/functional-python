@@ -6,10 +6,7 @@ and not for loops or list comprehensions.
 '''
 
 def evens(n):
-   if (n%2) == 0:
-       return n
-   map(evens, n)
-    '''
+    ''' 
     Returns a list of even numbers from 0 to n inclusive.
 
     >>> evens(10)
@@ -23,7 +20,8 @@ def evens(n):
     >>> evens(-1)
     []
     '''
-
+    map(lambda x: (x % 2 == 0), evens)
+    print("evens=", evens)
 
 def threes(n):
     '''
