@@ -5,10 +5,10 @@ Your solutions should use the map and filter functions,
 and not for loops or list comprehensions.
 '''
 
+
 def evens(n):
 
-
-    ''' 
+    '''
     Returns a list of even numbers from 0 to n inclusive.
 
     >>> evens(10)
@@ -27,7 +27,6 @@ def evens(n):
 
 
 def threes(n):
-
 
     '''
     Returns a list of all numbers from 0 to n inclusive that contain the digit 3.
