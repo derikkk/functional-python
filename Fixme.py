@@ -22,7 +22,7 @@ def evens(n):
     >>> evens(-1)
     []
     '''
-    (map(lambda x: (x % 2 == 0), n))
+    list(filter(lambda x:x%2==0, range(n))) 
 
 
 def threes(n):
