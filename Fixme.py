@@ -62,7 +62,7 @@ def small_words(text):
     >>> small_words('a big word is bad')
     ['a', 'big', 'word', 'is', 'bad']
     '''
-    list(map(lambda x: x, str.split(small_words)))
+    list(filter(lambda x:(len(x)>l), str.split(small_words)))
 
 
 def squares(n):
