@@ -95,4 +95,3 @@ def lengths(strings):
     [4, 2, 1, 4]
     '''
     return list(map(lambda x: len(x), strings))
-
