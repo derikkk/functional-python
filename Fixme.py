@@ -29,7 +29,8 @@ def evens(n):
 def threes(n):
 
     '''
-    Returns a list of all numbers from 0 to n inclusive that contain the digit 3.
+    Returns a list of all numbers from 0 to n
+    inclusive that contain the digit 3.
 
     >>> threes(2)
     []
@@ -46,7 +47,8 @@ def threes(n):
 
 def small_words(text):
     '''
-    Returns a list of all words in the input text that are less than 5 characters long.
+    Returns a list of all words in the
+    input text that are less than 5 characters long.
 
     HINT:
     Recall that text.split() converts the text variable into a list of words.
@@ -80,7 +82,8 @@ def squares(n):
 
 def lengths(strings):
     '''
-    Given a list of strings, returns a list of the lengths of the corresponding strings.
+    Given a list of strings, returns a list
+    of the lengths of the corresponding strings.
 
     >>> lengths([])
     []
