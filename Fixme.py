@@ -7,6 +7,7 @@ and not for loops or list comprehensions.
 
 def evens(n):
 
+
     ''' 
     Returns a list of even numbers from 0 to n inclusive.
 
@@ -24,7 +25,9 @@ def evens(n):
     map(lambda x: (x % 2 == 0), evens)
     print("evens=", evens)
 
+
 def threes(n):
+
 
     '''
     Returns a list of all numbers from 0 to n inclusive that contain the digit 3.
